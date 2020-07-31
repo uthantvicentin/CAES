@@ -33,7 +33,7 @@ classificador.compile(optimizer = 'rmsprop',loss = 'categorical_crossentropy',
 classificador.fit(previsores, classe_dummy, epochs = 20, batch_size = 2)
 
 cmodel = emlearn.convert(classificador)
-cmodel.save(file='sonar.h')
+cmodel.save(file='soilclassifier.h')
 
 classifier_json = classificador.to_json()
 with open('classificador_soil.json', 'w') as json_file:

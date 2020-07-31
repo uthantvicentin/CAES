@@ -83,8 +83,6 @@ grid_search = GridSearchCV(estimator = classificador,
                            scoring = 'accuracy',
                            cv = 5)
 
-
-
 grid_search = grid_search.fit(previsores, classe)
 melhores_parametros = grid_search.best_params_
 melhor_precisao = grid_search.best_score_
