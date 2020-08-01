@@ -1,4 +1,6 @@
 Data
 Files_Manipulation/fixcsv.py
 Files_Manipulation/fixcsv.sh
-
+CSV/data_300v2.csv
+CSV/data_3000v1.csv
+CSV/data_3000v2.csv
