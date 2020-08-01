@@ -44,7 +44,7 @@ def hex_to_c_array(hex_data, var_name):
 
   return c_str
 
-dados = pd.read_csv(csv_file + 'data_300v1.csv', header=None)
+dados = pd.read_csv(csv_file + 'data_300.csv', header=None)
 
 previsores = dados.iloc[:, 0:28].values
 classe = dados.iloc[:, 28].values
